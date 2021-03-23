@@ -1,0 +1,153 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/lssue/index",
+			"style": {
+				"navigationBarTitleText": "选择题目",
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/already/index",
+			"style": {
+				"navigationBarTitleText": "已出题目"
+			}
+		},
+		{
+			"path": "pages/library/index",
+			"style": {
+				"navigationBarTitleText": "题库百科"
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "发送红包",
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/demolition/index",
+			"style": {
+				"disableScroll": true,
+				"navigationBarTitleText": "查看红包"
+			}
+		},
+		{
+			"path": "pages/generate/index",
+			"style": {
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/member/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#d95940",
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/cash/index",
+			"style": {
+				"navigationBarTitleText": "余额提现",
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/problem/index",
+			"style": {
+				"navigationBarTitleText": "常见问题"
+			}
+		},
+		{
+			"path": "pages/record/index",
+			"style": {
+				"navigationBarTitleText": "我的记录"
+			}
+		},
+		{
+			"path": "pages/detail/index",
+			"style": {
+				"navigationBarTitleText": "红包详情"
+			}
+		},
+		{
+			"path": "pages/answer/index",
+			"style": {
+				"navigationBarTitleText": "红包答案"
+			}
+		},
+		{
+			"path": "pages/open/index",
+			"style": {
+				"navigationBarTitleText": "开始答题"
+			}
+		},
+		{
+			"path": "pages/result/index",
+			"style": {
+				"navigationBarTitleText": "答题结果"
+			}
+		},
+		{
+			"path": "pages/share/index",
+			"style": {
+				"disableScroll": true,
+				"navigationBarTitleText": "分享图"
+			}
+		}
+	],
+	// "tabBar": {
+	// 	"color": "#d45b46",
+	// 	"selectedColor": "#d45b46",
+	// 	"backgroundColor": "#fff4e2",
+	// 	"list": [
+	// 		{
+	// 			"pagePath": "pages/index/index",
+	// 			"text": "发红包",
+	// 			"iconPath": "/static/img/hbdefault.png",
+	// 			"selectedIconPath": "/static/img/hbselected.png"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/member/index",
+	// 			"text": "我的",
+	// 			"iconPath": "/static/img/mydefault.png",
+	// 			"selectedIconPath": "/static/img/myselected.png"
+	// 		}
+	// 	]
+	// },
+	
+	"navigateToMiniProgramAppIdList": [
+		"wx116848d32a395f21"
+	],
+	"sitemapLocation": "sitemap.json",
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTitleText": "默契答题",
+		"navigationBarTextStyle": "white",
+		"backgroundColor": "#ffffff",
+		"app-plus":{
+					"titleView":false
+				}
+
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	},
+	"subPackages": []
+}
